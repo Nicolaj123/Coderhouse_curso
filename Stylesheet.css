@@ -1,5 +1,5 @@
 .nav-bar {
-  background-color: royalblue;
+  background-color: teal;
   display: flex;
   height: 50px;
   border: solid 2px salmon;
@@ -14,12 +14,15 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: space-between;
-  margin-top: 20px;
 }
 .text-inicio {
   border: solid 2px cyan;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  padding-top: 100px;
+  background-color: teal;
 }
 .ordered-list {
   border: solid 2px red;
