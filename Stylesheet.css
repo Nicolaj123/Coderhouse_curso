@@ -2,9 +2,29 @@
   background-color: royalblue;
   display: flex;
   height: 50px;
+  border: solid 2px salmon;
 }
 .btn-nav {
+  border: solid 2px blue;
 }
-.background-image {
-  background-image: url();
+.container-inicio {
+  width: 100%;
+  border: solid 2px red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  margin-top: 20px;
+}
+.text-inicio {
+  border: solid 2px cyan;
+  width: 100%;
+  text-align: center;
+}
+.ordered-list {
+  border: solid 2px red;
+  display: flex;
+}
+.comparison-table {
+  border: solid 2px seagreen;
 }
