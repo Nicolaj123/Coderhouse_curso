@@ -1,0 +1,10 @@
+.nav-bar {
+  background-color: royalblue;
+  display: flex;
+  height: 50px;
+}
+.btn-nav {
+}
+.background-image {
+  background-image: url();
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto|NILAJE</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-icon">
+        <img src="" alt="icon" />
+      </div>
+      <div class="btn-nav">
+        <a href="index.html">Inicio</a>
+        <a href="seccion2.html">Ventas</a>
+        <a href="seccion3.html">Post-ventas</a>
+        <a href="seccion4.html">Service</a>
+        <a href="seccion5.html">Contacto</a>
+      </div>
+
+    <!--Sección Contacto-->
+    <div>
+      <h2>Dejanos tus dudas o consultas</h2>
+
+      <form action="clase2_submit" method="GET" accept-charset="UTF-8" style="border-style: solid; border-width: 1px;border-color: black; text-align: center;">
+        <br>
+        <label for="nombre_apellido">Nombre y Apellido:</label>	
+        <input type="text" name="nombre_apellido" />
+        <br>
+        <br>
+        <label for="Correo_electronico">Correo Electrónico:</label>
+        <input
+          type="email"
+          name="ejemplo_mail"
+          placeholder="nombre@gmail.com"
+        />
+        <br>
+        <br>
+        <textarea name="Consulta" cols="-5" rows="5"></textarea>
+        <br>
+        <br>
+        <select name="type" id="" value="">
+          <option value="1">Vehiculo</option> 
+          <option value="2">Moto</option> 
+          <option value="3">Post-Ventas</option>
+          <option value="4">Service</option>  
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="list" id="Id"/><label for="Id">Subscríbete a nuestro Newsletter</label>
+        <br>
+        <br>  
+        <input type="submit" value="Enviar Consulta" />
+        <input type="reset" value="Limpiar Formulario">
+        
+      </form>
+    </div>
+    
+  </body>
+</html>
