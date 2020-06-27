@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
 .nav-bar {
   background-color: teal;
   display: flex;
+  flex-direction: row;
   height: 50px;
   border: solid 2px salmon;
 }
@@ -31,4 +35,3 @@
 .comparison-table {
   border: solid 2px seagreen;
 }
-
