@@ -4,12 +4,17 @@
 .nav-bar {
   background-color: teal;
   display: flex;
-  flex-direction: row;
+  align-content: space-between;
   height: 50px;
   border: solid 2px salmon;
 }
+
+.nav-icon {
+  display: flex;
+}
 .btn-nav {
   border: solid 2px blue;
+  display: flex;
 }
 .container-inicio {
   width: 100%;
@@ -34,4 +39,7 @@
 }
 .comparison-table {
   border: solid 2px seagreen;
+}
+.vid_service {
+  width: 100%;
 }
