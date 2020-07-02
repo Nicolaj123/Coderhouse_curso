@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  color: black;
+}
+h1,
+h2,
+h3 {
+  color: black;
+}
+.nav-bar {
+  background-color: teal;
+  display: flex;
+  align-content: space-between;
+  height: 50px;
+  border: solid 2px yellowgreen;
+}
+.nav-icon {
+  display: flex;
+  border: solid 2px blue;
+}
+.btn-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: solid 2px red;
+}
+
+#grid_ventas {
+  border: solid 2px red;
+  background-color: teal;
+  display: grid;
+  grid-column: 12;
+}
+#footer-2{
+  background-color: teal;
+}
