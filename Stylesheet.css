@@ -1,17 +1,8 @@
 * {
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
 }
 
-p {
-  color: black;
-}
-
-h1,
-h2,
-h3 {
-  color: black;
-}
 a {
   text-decoration: none;
   color: black;
@@ -37,9 +28,6 @@ a {
   width: 100%;
   align-content: space-between;
 }
-.btn-nav a :hover {
-  pointer-events: all;
-}
 .container-inicio {
   width: 100%;
   display: flex;
@@ -49,25 +37,46 @@ a {
   padding-top: 10px;
 }
 .text-inicio {
-  width: 100%;
+  width: 81%;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-top: 30px;
   background-color: teal;
 }
+.text-inicio h1 {
+  color: black;
+  text-decoration: underline;
+}
+.text-inicio p {
+  font-size: 16px;
+  color: darkkhaki;
+}
 .bkg-img {
   width: 100%;
   height: 100%;
 }
 .ordered-list {
-  border: solid 2px black;
-  display: flex;
-  flex-direction: row;
+  border: solid 5px black;
+  width: 100%;
+  color: black;
+  list-style-type: square;
+  background-color: teal;
+  font-size: 16px;
+  color: darkkhaki;
+}
+#grid_ventas {
+  border: solid 2px red;
+  background-color: teal;
+  display: grid;
+  grid-column: 12;
 }
 .vid_service {
   width: 100%;
 }
 .vid-youtube {
   width: 100%;
+}
+#footer-2 {
+  background-color: teal;
 }
