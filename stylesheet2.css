@@ -9,6 +9,10 @@ h2,
 h3 {
   color: black;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .nav-bar {
   background-color: teal;
   display: flex;
@@ -33,6 +37,6 @@ h3 {
   display: grid;
   grid-column: 12;
 }
-#footer-2{
+#footer-2 {
   background-color: teal;
 }

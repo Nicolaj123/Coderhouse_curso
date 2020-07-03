@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 p {
@@ -11,28 +12,34 @@ h2,
 h3 {
   color: black;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 .nav-bar {
   background-color: teal;
   display: flex;
-  align-content: space-between;
+  flex-direction: row;
   height: 50px;
+  width: 100%;
   border: solid 2px yellowgreen;
 }
-
 .nav-icon {
   display: flex;
+  width: 100%;
   border: solid 2px blue;
-
 }
-
 .btn-nav {
+  border: solid 2px red;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  border: solid 2px red;
+  width: 100%;
+  align-content: space-between;
 }
-
+.btn-nav a :hover {
+  pointer-events: all;
+}
 .container-inicio {
   width: 100%;
   display: flex;
@@ -41,7 +48,6 @@ h3 {
   align-content: space-between;
   padding-top: 10px;
 }
-
 .text-inicio {
   width: 100%;
   display: flex;
@@ -50,27 +56,18 @@ h3 {
   padding-top: 30px;
   background-color: teal;
 }
-
 .bkg-img {
   width: 100%;
   height: 100%;
 }
-
 .ordered-list {
   border: solid 2px black;
   display: flex;
   flex-direction: row;
-  
 }
-
-.title-h1 {
-  color: chocolate;
-}
-
 .vid_service {
   width: 100%;
 }
-
 .vid-youtube {
   width: 100%;
 }
