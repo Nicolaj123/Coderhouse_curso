@@ -5,7 +5,7 @@
 
 a {
   text-decoration: none;
-  color: #383e56;
+  color: #eedad1;
 }
 h1,
 h2,
@@ -13,26 +13,27 @@ h3 {
   color: #383e56;
 }
 .nav-bar {
-  background-color: #eedad1;
+  background-color: #383e56;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  height: 50px;
-  width: 100%;
   overflow: hidden;
 }
 .nav-icon {
-  display: flex;
-  width: 100%;
+  width: 80%;
 }
 .btn-nav {
   text-decoration: underline;
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-content: center;
   width: 100%;
   padding: 0 50px 0 50px;
+}
+.btn-nav a {
+  cursor: pointer;
+  pointer-events: visible;
 }
 .container-inicio {
   width: 100%;
@@ -40,7 +41,7 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .text-inicio {
   width: 68%;
@@ -148,10 +149,10 @@ h3 {
 .footer-3 {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  padding-top: 20px;
+  padding-top: 30px;
   text-decoration: underline;
   overflow: hidden;
+  width: 50%;
 }
 .footer-4 {
   padding-top: 20px;
@@ -159,4 +160,5 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: hidden;
+  width: 50%;
 }
