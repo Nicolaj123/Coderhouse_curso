@@ -182,3 +182,23 @@ h3 {
   overflow: hidden;
   width: 50%;
 }
+
+@media only screen and (max-width: 425px) {
+  .container-inicio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .text-inicio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid 2px red;
+    margin-top: -20px;
+  }
+  .ordered-list {
+    border: solid 2px green;
+    width: 100%;
+    margin-top: -40px;
+  }
+}
