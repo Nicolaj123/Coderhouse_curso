@@ -200,9 +200,11 @@ h3 {
     display: flex;
     flex-direction: column;
   }
-  .btn-nav a {
+  .btn-nav li {
     display: flex;
-    align-content: space-between;
+    flex-direction: row;
+    align-content: space-around;
+    border: solid 2px #eedad1;
   }
   .container-inicio {
     display: flex;
@@ -224,9 +226,12 @@ h3 {
   }
   .grid {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .comparison-table {
+    margin-top: 20px;
+  }
+  .postventa-body {
     margin-top: 20px;
   }
   .footer-2 {
