@@ -196,10 +196,19 @@ h3 {
 }
 
 @media only screen and (max-width: 425px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-nav a {
+    display: flex;
+    align-content: space-between;
+  }
   .container-inicio {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 20px;
   }
   .text-inicio {
     display: flex;
@@ -211,6 +220,16 @@ h3 {
   .ordered-list {
     border: solid 2px green;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -30px;
+  }
+  .grid {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .comparison-table {
+    margin-top: 20px;
+  }
+  .footer-2 {
+    margin-top: 20px;
   }
 }
