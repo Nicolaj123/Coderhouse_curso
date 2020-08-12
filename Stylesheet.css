@@ -4,7 +4,7 @@
   font-family: "Merriweather", serif;
 }
 
-a {
+body a {
   text-decoration: none;
   color: #eedad1;
 }
@@ -15,7 +15,7 @@ h3 {
 }
 /* generales */
 
-#nava-bar {
+body #nava-bar {
   background-color: #383e56;
   display: flex;
   flex-direction: row;
