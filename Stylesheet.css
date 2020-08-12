@@ -23,13 +23,13 @@ h3 {
   justify-content: center;
   overflow: hidden;
 }
-.nava-icon {
+body .nava-icon {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#btn-nava {
+body #btn-nava {
   text-decoration: underline;
   list-style-type: none;
   display: flex;
@@ -40,7 +40,7 @@ h3 {
   padding: 10px 50px 0 50px;
   color: #383e56;
 }
-.btn-nava a:hover {
+body .btn-nava a:hover {
   background: white;
   color: black;
 }
@@ -116,6 +116,7 @@ h3 {
   color: #383e56;
   text-decoration: underline;
   cursor: pointer;
+  font-size: 18px;
 }
 .grid h3:hover {
   background: #383e56;
@@ -131,7 +132,10 @@ h3 {
   background-color: #eedad1;
   color: #383e56;
   border-radius: 5px;
+  font-size: 15px;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 .btn-consulta :hover {
 }
