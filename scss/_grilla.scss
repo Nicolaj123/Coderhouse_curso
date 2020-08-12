@@ -1,46 +1,29 @@
 /*Grilla */
 
-.grid-container {
-	display: grid;
-	margin: 40px 0 40px 0;
-	grid-template-columns: repeat(4,25%);
-	grid-template-rows: repeat(3,200px);
-	gap: 1px 1px;
-	text-align: center;
-	justify-content: stretch;
-	font-size: 1.5rem;
-	grid-template-areas:
-	"bannerUno bannerUno bannerUno bannerUno"
-	"noticiaDos noticiaDos noticiaTres noticiaCuatro"
-	"noticiaCinco noticiaSeis noticiaSiete noticiaCuatro";
+.grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 78px;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
-
-.bannerUno {
-	grid-area: bannerUno;
-	background-color: #EFF4F7;
+.grid {
+  background-color: #eedad1;
+  color: #383e56;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  margin: 15px 0px 25px 0px;
+  overflow: hidden;
 }
-.noticiaTres {
-	grid-area: noticiaTres;
-	background-color: #73CAEF;
+.grid h3 {
+  color: #383e56;
+  text-decoration: underline;
+  cursor: pointer;
 }
-.noticiaDos {
-	grid-area: noticiaDos;
-	background-color: #89FFFB;
+.grid h3:hover {
+  background: #383e56;
+  color: #eedad1;
 }
-.noticiaCuatro {
-	grid-area: noticiaCuatro;
-	background-color: #41E2DD;
-}
-.noticiaCinco {
-	grid-area: noticiaCinco;
-	background-color: #50D8C8;
-}
-.noticiaSeis {
-	grid-area: noticiaSeis;
-	background-color: #53B4F4;
-}
-.noticiaSiete {
-	grid-area: noticiaSiete;
-	background-color: #CDE0E4;
-}
-

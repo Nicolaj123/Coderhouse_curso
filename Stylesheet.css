@@ -89,6 +89,8 @@ h3 {
   justify-content: center;
   border: solid 2px yellow;
 }
+
+/*Grilla */
 .grid {
   display: grid;
   margin: 0 auto;
@@ -116,6 +118,9 @@ h3 {
   background: #383e56;
   color: #eedad1;
 }
+/*Grilla */
+
+
 .btn-consulta:hover {
   background: #383e56;
   color: #eedad1;
@@ -162,6 +167,7 @@ h3 {
 .vid-youtube {
   width: 100%;
 }
+/* Footer */
 .footer-2 {
   display: flex;
   flex-direction: row;
@@ -191,6 +197,7 @@ h3 {
   overflow: hidden;
   width: 50%;
 }
+/* Footer */
 
 @media only screen and (max-width: 525px) {
   .nava-bar {
