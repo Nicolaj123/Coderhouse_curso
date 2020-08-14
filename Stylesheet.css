@@ -1,3 +1,4 @@
+@charset "UTF-8"
 /* generales */
 * {
   box-sizing: border-box;
@@ -15,6 +16,7 @@ h3 {
 }
 /* generales */
 
+/* header */
 body #nava-bar {
   background-color: #383e56;
   display: flex;
@@ -92,6 +94,7 @@ body .btn-nava a:hover {
   justify-content: center;
   border: solid 2px yellow;
 }
+/* header */
 
 /*Grilla */
 .grid {
