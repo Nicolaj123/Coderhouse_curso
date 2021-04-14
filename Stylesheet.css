@@ -20,7 +20,7 @@ h3 {
 body #nava-bar {
   background-color: #383e56;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -36,16 +36,24 @@ body #btn-nava {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
-  width: 100%;
-  padding: 10px 50px 0 50px;
+  width: 130%;
+  padding: 10px 50px 10px 50px;
   color: #383e56;
 }
 body .btn-nava a:hover {
   background: white;
   color: black;
 }
+.Btn_menu {
+  text-decoration: underline;
+  text-align: center;
+  color: black  ;
+  background-color: #eedad1;
+  border-radius: 10px;
+ }
+
 .container-inicio {
   width: 100%;
   display: flex;
@@ -191,10 +199,10 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 20px;
   text-decoration: underline;
   overflow: hidden;
-  width: 50%;
+  width: 40%;
 }
 .footer-4 {
   padding-top: 20px;
@@ -204,7 +212,7 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow: hidden;
-  width: 50%;
+  width: 40%;
 }
 /* Footer */
 
@@ -240,7 +248,6 @@ h3 {
     text-align: center;
     margin-top: 20px;
     grid-gap: 25px;
-    border: solid 2px red;
     width: 100%;
   }
   .comparison-table {
